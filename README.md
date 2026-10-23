@@ -2,6 +2,22 @@
 
 A Laravel-based task reminder application with due date tracking, notification scheduling, and filtering capabilities.
 
+Repository: https://github.com/0xyz-exe/task-reminder-app-laravel
+
+## Screenshots
+
+### Reminders Dashboard & Status Badges
+![Reminders dashboard](docs/screenshots/01_reminders_dashboard.png)
+
+### Create & Schedule Reminder
+![Create reminder](docs/screenshots/02_create_reminder.png)
+
+### Due & Upcoming Filtering
+![Reminder filters](docs/screenshots/03_reminder_filters.png)
+
+### Authentication
+![Authentication](docs/screenshots/04_login.png)
+
 ## Features
 
 - ✅ User authentication (Laravel Breeze)
