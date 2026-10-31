@@ -3,10 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Models\Reminder;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 
 class ReminderController extends Controller
 {
+    use AuthorizesRequests;
+
     public function index(Request $request)
     {
         $filter = $request->get('filter', 'all');

@@ -6,17 +6,12 @@ Repository: https://github.com/0xyz-exe/task-reminder-app-laravel
 
 ## Screenshots
 
-### Reminders Dashboard & Status Badges
-![Reminders dashboard](docs/screenshots/01_reminders_dashboard.png)
-
-### Create & Schedule Reminder
-![Create reminder](docs/screenshots/02_create_reminder.png)
-
-### Due & Upcoming Filtering
-![Reminder filters](docs/screenshots/03_reminder_filters.png)
-
-### Authentication
-![Authentication](docs/screenshots/04_login.png)
+| Tampilan | Preview |
+|---|---|
+| **Dashboard Overview & Daftar Pengingat Tugas**<br>Tampilan antarmuka utama task reminder dengan filter status kategori (All, Due, Upcoming, Completed), visual due date highlighting merah untuk tugas mendesak, dan kontrol penyelesaian tugas cepat | ![Dashboard Overview & Daftar Pengingat Tugas](docs/screenshots/01-dashboard-overview.png) |
+| **Formulir Pembuatan Pengingat Baru**<br>Formulir penjadwalan tugas interaktif dengan input judul, deskripsi tugas, due date picker, serta notifikasi pengingat terjadwal opsional (Remind Me At) | ![Formulir Pembuatan Pengingat Baru](docs/screenshots/02-create-reminder-form.png) |
+| **Filter Pengingat Jatuh Tempo (Due Tasks)**<br>Halaman operasional penyaringan tugas jatuh tempo dengan status filter badge merah, pelabelan waktu kritis, dan aksi cepat Complete/Reopen/Edit/Delete | ![Filter Pengingat Jatuh Tempo](docs/screenshots/03-filtered-due-reminders.png) |
+| **Manajemen & Pembaruan Data Pengingat**<br>Formulir edit data pengingat terisi lengkap (pre-filled) dengan validasi authorization policy kepemilikan akun, penyesuaian deadline, dan tombol aksi terintegrasi | ![Manajemen & Pembaruan Data Pengingat](docs/screenshots/04-edit-reminder-management.png) |
 
 ## Features
 
